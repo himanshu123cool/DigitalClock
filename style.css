@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 0;
+   }
+
+.container{
+    padding: 2rem;
+    background-color: rgb(37, 37, 37);
+    border-radius: 4px;
+}
+
+.watch-box{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0 1rem;
+    padding: 0 5rem;
+}
+
+.day-box{
+    width: 100%;
+    color: rgb(63, 63, 63);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.time-box{
+    width: 100%;
+    color: rgb(19, 109, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 1rem;
+    padding: 1rem;
+}
+
+.date-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 1rem;
+}
+
+#date{
+    font-size: 1.5rem;
+}
+
+#time{
+    font-size: 3rem;
+}
+
+
+.active{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:481px) and (max-width:768px){
+
+    .watch-box{
+        padding: 0 3rem;
+    }
+}
+
+
+@media (min-width:320px) and (max-width:480px){
+
+    .container{
+        padding: 1rem;
+    }
+
+    .watch-box{
+        padding: 0;
+    }
+
+    .time-box{
+        padding: 0.5rem;
+    }
+
+    #time{
+        font-size: 2.5rem;
+    }
+
+    .day-box{
+        gap: 0 0.5rem;
+    }
+}
+
+
+@media (min-width:0px) and (max-width:319px){
+
+    .container{
+        padding: 1rem;
+    }
+
+    .watch-box{
+        padding: 0;
+    }
+
+    .date-box{
+        padding: 0.5rem;
+    }
+
+    #date{
+        font-size: 1.2rem;
+    }
+
+    .time-box{
+        padding: 0.5rem;
+    }
+
+    #time{
+        font-size: 2rem;
+    }
+
+    .day-box{
+        gap: 0 0.5rem;
+        padding: 0.5rem;
+    }
+
+    body{}
+}
