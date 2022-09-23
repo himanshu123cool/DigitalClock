@@ -63,7 +63,7 @@ switch (_month) {
     case 10:
         _month = 'Nov'
         break;
-    default:
+    case 11:
         _month ='Dec'
         break;
 }
@@ -81,10 +81,6 @@ currDay.classList.add('active')
 }
 
 showtime();
-
-
-
-
 
 
 
